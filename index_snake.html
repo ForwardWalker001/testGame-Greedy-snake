@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>贪吃蛇</title>
+    <style type="text/css">
+    html,body,canvas {
+		margin: 0px;
+		padding: 0px;
+	}
+	canvas {
+		display: block;
+		margin: 0px auto ;
+		background: #eee;
+	}
+    </style>
+
+</head>
+<script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="./js/jquery.cookie.js"></script>
+<body>
+<canvas id="canvas"></canvas>
+
+<audio src="./music/die.mp3" id="die"></audio>
+<audio src="./music/sfx_point.ogg" id="point"></audio>
+
+</body>
+<script  src="./js/game_snake.js"></script>
+<script type="text/javascript" src = "./js/food.js"></script>
+<script type="text/javascript" src="./js/snake.js"></script>
+<script type="text/javascript" src="./js/manage_snake.js"></script>
+<script >
+	var game = new game()
+</script>
+</html>
